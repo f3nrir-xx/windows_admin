@@ -1,9 +1,7 @@
 ﻿#list of Computers Name
-$computers=@("4T-LB-PC2",
-             "4T-LB-LP4",
-             "4T-PC7",
-             "4T-LB-PC14",
-             "4T-LB-PC18")
+$computers=@("client1",
+             "client2",
+             "client3")
 Function Get-MonitorSN{
 #List of Manufacture Codes and their respective full names
 $ManufacturerHash = @{ 
